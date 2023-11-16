@@ -160,7 +160,7 @@ export class CdTimerComponent implements AfterViewInit, OnDestroy {
       // Intelli presentation
       outputText = '';
       if (this.days > 0) {
-        outputText += this.days.toString() + 'day' + ((this.days > 1) ? 's' : '') + ' ';
+        outputText += this.days.toString() + 'jour(s)' + ((this.days > 1) ? 's' : '') + ' ';
       }
       if ((this.hours > 0) || (this.days > 0)) {
         outputText += this.hours.toString() + 'h ';
